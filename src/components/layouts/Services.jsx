@@ -25,7 +25,7 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-3 gap-10 pb-25">
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaTabletAlt className="text-[#EE5F38] text-3xl" />
+            <FaTabletAlt className="text-[#06b6d4] text-3xl" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               Responsive Design
             </h3>
@@ -43,7 +43,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaCode className="text-[#EE5F38] text-[32px]" />
+            <FaCode className="text-[#06b6d4] text-[32px]" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               HTML, CSS & Tailwind
             </h3>
@@ -61,7 +61,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FiFigma className="text-[#EE5F38] text-3xl" />
+            <FiFigma className="text-[#06b6d4] text-3xl" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               Figma / PSD to Code
             </h3>
@@ -79,7 +79,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaJsSquare className="text-[#EE5F38] text-3xl" />
+            <FaJsSquare className="text-[#06b6d4] text-3xl" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               JavaScript (ES6+)
             </h3>
@@ -97,7 +97,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaReact className="text-[#EE5F38] text-[32px]" />
+            <FaReact className="text-[#06b6d4] text-[32px]" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               React.js
             </h3>
@@ -115,7 +115,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaTools className="text-[#EE5F38] text-[27px]" />
+            <FaTools className="text-[#06b6d4] text-[27px]" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               UI Fix & Bug Fixing
             </h3>
@@ -136,31 +136,21 @@ const Services = () => {
           </div>
         </div>
       </Container>
-      <div
-        className={`
-        min-h-120   
-        bg-cover bg-center bg-no-repeat     
-        bg-[url('/src/assets/jahin.png')]  
-         
-        relative                         
-        `}
-      >
-        <div className="absolute inset-0 bg-[#0F172B]/50 text-center flex items-center justify-center">
-          <div className="">
-            <h3 className="text-white text-2xl font-semibold">
-              I Am Available For Font-End Projects.
-            </h3>
-            <p className="w-123 mx-auto text-[#90A1B9] text-[15px] font-openSans leading-6 py-4">
-              Obviously I'm a Web Designer. Web Developer with over 7 years of
-              experience. Experienced with all stages of the development.
-            </p>
-            <Link
-              to={""}
-              className="text-white text-[15px] font-medium bg-[#EE5F38] inline-block py-3 px-6 rounded-md hover:bg-[#ee5f38c2] transition-all duration-400"
-            >
-              Hire Me
-            </Link>
-          </div>
+      <div className={"bg-[#1B3D50] py-40"}>
+        <div className="text-center">
+          <h3 className="text-white text-2xl font-semibold">
+            I Am Available For Font-End Projects.
+          </h3>
+          <p className="w-123 mx-auto text-[#90A1B9] text-[15px] font-openSans leading-6 py-4">
+            Obviously I'm a Web Designer. Web Developer with over 7 years of
+            experience. Experienced with all stages of the development.
+          </p>
+          <Link
+            to={""}
+            className="text-white text-[15px] font-medium bg-[#06b6d4] inline-block py-3 px-6 rounded-md hover:bg-[#06b5d483] transition-all duration-400"
+          >
+            Hire Me
+          </Link>
         </div>
       </div>
     </div>

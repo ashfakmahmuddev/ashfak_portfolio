@@ -33,9 +33,9 @@ const Header = () => {
                     href={manu.path}
                     className="
                       group relative inline-block px-5 py-3 rounded-lg 
-                      hover:text-[#EE5F38] transition-colors duration-400 
+                      hover:text-[#06b6d4] transition-colors duration-400 
                       after:content-[''] after:absolute after:inset-0 after:rounded-lg 
-                      after:bg-[#EE5F381A] after:scale-0 after:origin-center 
+                      after:bg-[#06b5d41f] after:scale-0 after:origin-center 
                       after:transition-all after:duration-400 after:ease-out 
                       hover:after:scale-100
                     "
@@ -49,19 +49,19 @@ const Header = () => {
           <div className="flex items-center gap-x-2">
             <Link
               to={""}
-              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#EE5F38] hover:bg-[#EE5F381A] transition-all duration-500"
+              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
             >
               <FaFacebookF className="" />
             </Link>
             <Link
               to={""}
-              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#EE5F38] hover:bg-[#EE5F381A] transition-all duration-500"
+              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
             >
               <FaLinkedinIn className="" />
             </Link>
             <Link
               to={""}
-              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#EE5F38] hover:bg-[#EE5F381A] transition-all duration-500"
+              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
             >
               <GrInstagram className="" />
             </Link>

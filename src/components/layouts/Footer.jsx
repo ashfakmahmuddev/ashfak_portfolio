@@ -45,7 +45,7 @@ const Footer = () => {
             </form>
             <Link
               to={""}
-              className="text-white text-[15px] bg-[#EE5F38] hover:bg-[#ee5f38dc] transition-all duration-400 font-medium font-openSans inline-block py-3 px-6 rounded-md "
+              className="text-white text-[15px] bg-[#06b6d4] hover:bg-[#06b5d4b6] transition-all duration-400 font-medium font-openSans inline-block py-3 px-6 rounded-md "
             >
               Send Message
             </Link>

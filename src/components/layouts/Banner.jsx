@@ -13,14 +13,14 @@ const Banner = () => {
           <div className="pt-80">
             <div className="text-[40px] font-bold">
               <h4 className="text-white pb-1">Hay..! I'm</h4>
-              <h1 className="text-[#EE5F38]">Web Developer</h1>
+              <h1 className="text-[#06b6d4]">Web Developer</h1>
             </div>
             <p className="w-120 text-[#90A1B9] text-base font-openSans pt-4">
               Obviously I'm a Web Designer. Web Developer with over 7 years of
               experience. Experienced with all stages of the development.
             </p>
             <div className="flex items-center gap-x-3 pt-6">
-              <Link to={''} className="text-white text-[15px] font-medium bg-[#EE5F38] inline-block py-3 px-6 rounded-md hover:bg-[#ee5f38c2] transition-all duration-400">
+              <Link to={''} className="text-white text-[15px] font-medium bg-[#06b6d4] inline-block py-3 px-6 rounded-md hover:bg-[#06b5d4c5] transition-all duration-400">
                 Hire Me
               </Link>
               <Link to={''}>

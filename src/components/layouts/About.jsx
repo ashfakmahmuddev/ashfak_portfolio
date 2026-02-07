@@ -31,7 +31,7 @@ const About = () => {
                 Web Developer
               </h4>
               <p className="text-[#90A1B9] text-sm">
-                <span className="text-[#EE5F38] text-2xl font-bold">2+</span>{" "}
+                <span className="text-[#06b6d4] text-2xl font-bold">2+</span>{" "}
                 Years <br />
                 Experience
               </p>
@@ -68,8 +68,8 @@ const About = () => {
           </div>
           <div className="grid grid-cols-4 gap-8">
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <FaCode className="text-xl" />
                 </div>
               </div>
@@ -78,8 +78,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <TbDeviceImacCode className="text-xl" />
                 </div>
               </div>
@@ -88,8 +88,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <MdCardTravel className="text-xl" />
                 </div>
               </div>
@@ -98,8 +98,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <FaBookOpenReader className="text-lg" />
                 </div>
               </div>
@@ -108,8 +108,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <FaPrayingHands className="text-xl" />
                 </div>
               </div>
@@ -118,8 +118,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <MdOutlineSportsHandball className="text-2xl" />
                 </div>
               </div>
@@ -128,8 +128,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <GiCoffeeCup className="text-2xl" />
                 </div>
               </div>
@@ -138,8 +138,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <PiChefHatBold className="text-xl" />
                 </div>
               </div>
@@ -148,8 +148,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <FaSeedling className="text-lg" />
                 </div>
               </div>
@@ -158,8 +158,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <FaSwimmer className="text-xl" />
                 </div>
               </div>
@@ -168,8 +168,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <GiCycling className="text-2xl" />
                 </div>
               </div>
@@ -178,8 +178,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-5 py-3 px-3  border-2 border-[#1E2939] rounded-lg">
-              <div className="h-12 w-12 rounded-xl bg-[#EE5F381A] rotate-45 flex justify-center items-center">
-                <div className="-rotate-45 text-[#EE5F38]">
+              <div className="h-12 w-12 rounded-xl bg-[#06b5d41f] rotate-45 flex justify-center items-center">
+                <div className="-rotate-45 text-[#06b6d4]">
                   <MdDraw className="text-2xl" />
                 </div>
               </div>
