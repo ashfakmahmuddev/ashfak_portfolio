@@ -37,9 +37,9 @@ const Services = () => {
             <Link
               to={"https://tailwindcss.com/docs/responsive-design"}
               target="_blank"
-              className="flex items-center gap-x-2 text-white"
+              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
             >
-              <span>Read More</span> <FaRightLong />
+              Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
@@ -55,9 +55,9 @@ const Services = () => {
             <Link
               to={"https://tailwindcss.com"}
               target="_blank"
-              className="flex items-center gap-x-2 text-white"
+              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
             >
-              <span>Read More</span> <FaRightLong />
+              Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
@@ -73,9 +73,9 @@ const Services = () => {
             <Link
               to={"https://www.figma.com"}
               target="_blank"
-              className="flex items-center gap-x-2 text-white"
+              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
             >
-              <span>Read More</span> <FaRightLong />
+              Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
@@ -91,9 +91,9 @@ const Services = () => {
             <Link
               to={"https://www.w3schools.com/js"}
               target="_blank"
-              className="flex items-center gap-x-2 text-white"
+              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
             >
-              <span>Read More</span> <FaRightLong />
+              Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
@@ -109,9 +109,9 @@ const Services = () => {
             <Link
               to={"https://react.dev"}
               target="_blank"
-              className="flex items-center gap-x-2 text-white"
+              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
             >
-              <span>Read More</span> <FaRightLong />
+              Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
@@ -129,9 +129,9 @@ const Services = () => {
                 "https://www.google.com/search?q=ui+fix+%26+bug+fixing+react+js&oq=UI+Fix+%26+Bug+Fixing&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDM4MDBqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"
               }
               target="_blank"
-              className="flex items-center gap-x-2 text-white"
+              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4]"
             >
-              <span>Read More</span> <FaRightLong />
+              Read More <FaRightLong />
             </Link>
           </div>
         </div>
