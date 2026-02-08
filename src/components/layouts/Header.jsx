@@ -48,13 +48,13 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-x-2">
             <Link
-              to={""}
+              to={"https://www.facebook.com/ashfakmahmuddev"}
               className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
             >
               <FaFacebookF className="" />
             </Link>
             <Link
-              to={""}
+              to={"https://www.linkedin.com/in/ashfakmahmuddev"}
               className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
             >
               <FaLinkedinIn className="" />
