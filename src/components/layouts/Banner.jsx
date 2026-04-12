@@ -20,12 +20,18 @@ const Banner = () => {
               experience. Experienced with all stages of the development.
             </p>
             <div className="flex items-center gap-x-3 pt-6">
-              <Link to={''} className="text-white text-[15px] font-medium bg-[#06b6d4] inline-block py-3 px-6 rounded-md hover:bg-[#06b5d4c5] transition-all duration-400">
+              <Link
+                to={""}
+                className="text-white text-[15px] font-medium bg-[#06b6d4] inline-block py-3 px-6 rounded-md hover:bg-[#06b5d4c5] transition-all duration-400"
+              >
                 Hire Me
               </Link>
-              <Link to={''}>
+              <a
+                href="/public/AshfakResume.pdf"
+                download="Ashfak_Resume.pdf"
+              >
                 <Button btnText={"Download CV"} />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="relative">
