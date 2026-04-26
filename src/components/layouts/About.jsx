@@ -50,9 +50,11 @@ const About = () => {
             <h3 className="text-white text-2xl font-semibold pb-6">
               Hobbies & Expertise
             </h3>
-            <p className="text-[#90A1B9] text-[15px] font-openSans w-120 mx-auto">
-              Obviously I'm a Web Developer. Web Developer with over 2 years of
-              experience. Experienced with all stages of the development.
+            <p className="text-[#90A1B9] text-[15px] font-openSans w-134 mx-auto">
+              Frontend Developer with 1+ year of experience focused on building
+              scalable web applications using React and Next.js. Proven track
+              record of optimizing UI components and improving application
+              efficiency by 30%.
             </p>
           </div>
           <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">

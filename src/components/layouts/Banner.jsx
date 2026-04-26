@@ -15,9 +15,11 @@ const Banner = () => {
               <h4 className="text-white">Hay..! I'm</h4>
               <h1 className="text-primary">Ashfak Mahmud</h1>
             </div>
-            <p className="w-120 text-[#90A1B9] text-base font-openSans pt-4">
-              Obviously I'm a Web Designer. Web Developer with over 7 years of
-              experience. Experienced with all stages of the development.
+            <p className="w-136 text-[#90A1B9] text-base font-openSans pt-4">
+              Frontend Developer with 1+ year of experience focused on building
+              scalable web applications using React and Next.js. Proven track
+              record of optimizing UI components and improving application
+              efficiency by 30%.
             </p>
             <div className="flex items-center gap-x-3 pt-6">
               <Link
