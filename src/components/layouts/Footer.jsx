@@ -33,9 +33,11 @@ const Footer = () => {
       <Container>
         <div className="text-center pb-16">
           <h3 className="text-white text-2xl font-semibold">Get In Touch !</h3>
-          <p className="w-123 mx-auto text-[#90A1B9] text-[15px] font-openSans leading-6 pt-6">
-            Obviously I'm a Web Designer. Web Developer with over 7 years of
-            experience. Experienced with all stages of the development.
+          <p className="w-134 mx-auto text-[#90A1B9] text-[15px] font-openSans leading-6 pt-6">
+            Frontend Developer with 1+ year of experience focused on building
+              scalable web applications using React and Next.js. Proven track
+              record of optimizing UI components and improving application
+              efficiency by 30%.
           </p>
         </div>
         <div className="flex gap-x-15 items-center">
