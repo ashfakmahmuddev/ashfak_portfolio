@@ -71,7 +71,7 @@ const Footer = () => {
               <button
                 value="Send"
                 type="submit "
-                className="text-white text-[15px] bg-[#06b6d4] hover:bg-[#06b5d4b6] transition-all duration-400 font-medium font-openSans inline-block py-3 px-6 rounded-md cursor-pointer mt-5"
+                className="text-white text-[15px] bg-primary hover:bg-[#ee5f38ce] transition-all duration-400 font-medium font-openSans inline-block py-3 px-6 rounded-md cursor-pointer mt-5"
               >
                 Send Message
               </button>

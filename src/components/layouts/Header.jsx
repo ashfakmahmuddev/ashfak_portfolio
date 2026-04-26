@@ -1,7 +1,7 @@
 import Container from "../Container";
 import Image from "../Image";
 import { Link, useLocation } from "react-router-dom";
-import BeeCoder from "/src/assets/BeeCoder.png";
+import BeeCoder from "/src/assets/BeeCoder2.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
@@ -58,9 +58,9 @@ const Header = () => {
                     href={manu.path}
                     className="
                       group relative inline-block px-5 py-3 rounded-lg 
-                      hover:text-[#06b6d4] transition-colors duration-400 
+                      hover:text-primary transition-colors duration-400 
                       after:content-[''] after:absolute after:inset-0 after:rounded-lg 
-                      after:bg-[#06b5d41f] after:scale-0 after:origin-center 
+                      after:bg-[#ee5f3825] after:scale-0 after:origin-center 
                       after:transition-all after:duration-400 after:ease-out 
                       hover:after:scale-100
                     "
@@ -75,20 +75,20 @@ const Header = () => {
             <Link
               to={"https://www.facebook.com/ashfakmahmuddev"}
               target="_blank"
-              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
+              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-primary hover:bg-[#ee5f3825] transition-all duration-500"
             >
               <FaFacebookF className="" />
             </Link>
             <Link
               to={"https://www.linkedin.com/in/ashfakmahmuddev"}
               target="_blank"
-              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
+              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-primary hover:bg-[#ee5f3825] transition-all duration-500"
             >
               <FaLinkedinIn className="" />
             </Link>
             <Link
               to={""}
-              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
+              className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-primary hover:bg-[#ee5f3825] transition-all duration-500"
             >
               <GrInstagram className="" />
             </Link>

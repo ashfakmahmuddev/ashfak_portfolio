@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('/src/assets/banner.png')] bg-no-repeat bg-cover bg-center font-DMSans">
+    <div className="bg-[url('/src/assets/banner2.png')] bg-no-repeat bg-cover bg-center font-DMSans">
       <Container>
         <div className="grid grid-cols-2 gap-x-8 justify-between">
           <div className="md:pt-50">
@@ -36,7 +36,7 @@ const Banner = () => {
           </div>
           <div className="relative">
             <Image imgSrc={bannerImg} className={"w-[80%]"} />
-            <div className="absolute right-8 bottom-95 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
+            <div className="absolute right-35 bottom-70 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
               <h4 className="text-white text-base font-semibold">
                 Web Developer
               </h4>

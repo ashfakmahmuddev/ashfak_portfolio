@@ -25,7 +25,7 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-3 gap-10 pb-25">
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaTabletAlt className="text-[#06b6d4] text-3xl" />
+            <FaTabletAlt className="text-primary text-3xl" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               Responsive Design
             </h3>
@@ -37,13 +37,13 @@ const Services = () => {
             <Link
               to={"https://tailwindcss.com/docs/responsive-design"}
               target="_blank"
-              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
+              className="inline-flex items-center gap-x-2 text-white hover:text-primary transition-all duration-400"
             >
               Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaCode className="text-[#06b6d4] text-[32px]" />
+            <FaCode className="text-primary text-[32px]" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               HTML, CSS & Tailwind
             </h3>
@@ -55,13 +55,13 @@ const Services = () => {
             <Link
               to={"https://tailwindcss.com"}
               target="_blank"
-              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
+              className="inline-flex items-center gap-x-2 text-white hover:text-primary transition-all duration-400"
             >
               Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FiFigma className="text-[#06b6d4] text-3xl" />
+            <FiFigma className="text-primary text-3xl" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               Figma / PSD to Code
             </h3>
@@ -73,13 +73,13 @@ const Services = () => {
             <Link
               to={"https://www.figma.com"}
               target="_blank"
-              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
+              className="inline-flex items-center gap-x-2 text-white hover:text-primary transition-all duration-400"
             >
               Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaJsSquare className="text-[#06b6d4] text-3xl" />
+            <FaJsSquare className="text-primary text-3xl" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               JavaScript (ES6+)
             </h3>
@@ -91,13 +91,13 @@ const Services = () => {
             <Link
               to={"https://www.w3schools.com/js"}
               target="_blank"
-              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
+              className="inline-flex items-center gap-x-2 text-white hover:text-primary transition-all duration-400"
             >
               Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaReact className="text-[#06b6d4] text-[32px]" />
+            <FaReact className="text-primary text-[32px]" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               React.js
             </h3>
@@ -109,13 +109,13 @@ const Services = () => {
             <Link
               to={"https://react.dev"}
               target="_blank"
-              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4] transition-all duration-400"
+              className="inline-flex items-center gap-x-2 text-white hover:text-primary transition-all duration-400"
             >
               Read More <FaRightLong />
             </Link>
           </div>
           <div className="bg-[#0F172B] rounded-2xl py-6 px-10">
-            <FaTools className="text-[#06b6d4] text-[27px]" />
+            <FaTools className="text-primary text-[27px]" />
             <h3 className="text-white text-[17px] font-medium pt-5">
               UI Fix & Bug Fixing
             </h3>
@@ -129,7 +129,7 @@ const Services = () => {
                 "https://www.google.com/search?q=ui+fix+%26+bug+fixing+react+js&oq=UI+Fix+%26+Bug+Fixing&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDM4MDBqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"
               }
               target="_blank"
-              className="inline-flex items-center gap-x-2 text-white hover:text-[#06b6d4]"
+              className="inline-flex items-center gap-x-2 text-white hover:text-primary"
             >
               Read More <FaRightLong />
             </Link>
@@ -147,7 +147,7 @@ const Services = () => {
           </p>
           <Link
             to={""}
-            className="text-white text-[15px] font-medium bg-[#06b6d4] inline-block py-3 px-6 rounded-md hover:bg-[#06b5d483] transition-all duration-400"
+            className="text-white text-[15px] font-medium bg-primary inline-block py-3 px-6 rounded-md hover:bg-[#ee5f38ce] transition-all duration-400"
           >
             Hire Me
           </Link>
