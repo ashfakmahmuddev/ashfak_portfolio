@@ -4,6 +4,7 @@ import aboutImg from "/src/assets/aboutImg.png";
 import Button from "../Button";
 import { hobbies } from "/src/components/data/aboutData";
 import HobbyCard from "/src/components/HobbyCard";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -39,7 +40,9 @@ const About = () => {
                 web design with my all years of experience.
               </p>
             </div>
-            <Button btnText={"See Work"} />
+            <Link to={"https://github.com/ashfakmahmuddev?tab=repositories"} target="_blank">
+              <Button btnText={"See Work"} />
+            </Link>
           </div>
         </div>
         <div className="">
