@@ -17,7 +17,7 @@ const About = () => {
                 Web Developer
               </h4>
               <p className="text-[#90A1B9] text-sm">
-                <span className="text-[#06b6d4] text-2xl font-bold">2+</span>{" "}
+                <span className="text-primary text-2xl font-bold">2+</span>{" "}
                 Years <br />
                 Experience
               </p>

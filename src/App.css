@@ -3,8 +3,9 @@
 @theme {
   --font-DMSans: "DM Sans", sans-serif;
   --font-openSans: "Open Sans", sans-serif;
+  --color-primary: #ee5f38;
 }
 
 html {
-  scroll-behavior: smooth;          /* smooth scrolling চালু */
+  scroll-behavior: smooth; /* smooth scrolling চালু */
 }
