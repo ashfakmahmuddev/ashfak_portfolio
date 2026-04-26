@@ -136,7 +136,7 @@ const Services = () => {
           </div>
         </div>
       </Container>
-      <div className={"bg-[#1B3D50] py-40"}>
+      <div className={"bg-[#ee5f3826] py-40"}>
         <div className="text-center">
           <h3 className="text-white text-2xl font-semibold">
             I Am Available For Font-End Projects.
@@ -146,7 +146,8 @@ const Services = () => {
             experience. Experienced with all stages of the development.
           </p>
           <Link
-            to={""}
+            to={"https://mail.google.com/mail/?view=cm&to=ashfakmahmud.dev@gmail.com"}
+            target="_blank" rel="noreferrer"
             className="text-white text-[15px] font-medium bg-primary inline-block py-3 px-6 rounded-md hover:bg-[#ee5f38ce] transition-all duration-400"
           >
             Hire Me
