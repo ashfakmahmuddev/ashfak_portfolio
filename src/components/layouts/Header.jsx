@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import BeeCoder from "/src/assets/BeeCoder2.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { GrInstagram } from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -87,10 +87,11 @@ const Header = () => {
               <FaLinkedinIn className="" />
             </Link>
             <Link
-              to={""}
+              to={"https://github.com/ashfakmahmuddev"}
+              target="_blank"
               className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-primary hover:bg-[#ee5f3825] transition-all duration-500"
             >
-              <GrInstagram className="" />
+              <FaGithub className="" />
             </Link>
             <button
               className="md:hidden text-3xl focus:outline-none"
