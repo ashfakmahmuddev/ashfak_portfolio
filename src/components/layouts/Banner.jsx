@@ -10,10 +10,10 @@ const Banner = () => {
     <div className="bg-[url('/src/assets/banner2.png')] bg-no-repeat bg-cover bg-center font-DMSans">
       <Container>
         <div className="grid grid-cols-2 gap-x-8 justify-between">
-          <div className="md:pt-50">
+          <div className="pt-50">
             <div className="text-[40px] font-bold">
-              <h4 className="text-white pb-1">Hay..! I'm</h4>
-              <h1 className="text-primary">Web Developer</h1>
+              <h4 className="text-white">Hay..! I'm</h4>
+              <h1 className="text-primary">Ashfak Mahmud</h1>
             </div>
             <p className="w-120 text-[#90A1B9] text-base font-openSans pt-4">
               Obviously I'm a Web Designer. Web Developer with over 7 years of
