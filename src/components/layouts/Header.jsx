@@ -1,20 +1,45 @@
 import Container from "../Container";
 import Image from "../Image";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import BeeCoder from "/src/assets/BeeCoder.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
-
+import { useEffect, useState } from "react";
+import { FiMenu, FiX } from "react-icons/fi";
 
 const Header = () => {
+  const location = useLocation();
+  const [isPassed, setIsPassed] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsPassed(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsOpen(false);
+  }, [location.pathname]);
   return (
-    <div className="fixed w-full text-white bg-[#0F172B] font-DMSans py-5 z-100">
+    <header
+      className={`text-white sticky w-full z-50
+          transition-all duration-500 ease-in-out font-DMSans py-5
+          ${
+            isPassed
+              ? "top-0 bg-[#0F172B] backdrop-blur-md shadow-sm"
+              : "-top-25 bg-[#0F172B] shadow-none"
+          }`}
+    >
       <Container>
         <div className="flex justify-between items-center">
           <div className="">
             <Link to={"/"} className="">
-              <Image imgSrc={BeeCoder}  className={'w-38'}/>
+              <Image imgSrc={BeeCoder} className={"w-38"} />
             </Link>
           </div>
 
@@ -48,13 +73,15 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-x-2">
             <Link
-              to={"https://www.facebook.com/ashfakmahmuddev"} target="_blank"
+              to={"https://www.facebook.com/ashfakmahmuddev"}
+              target="_blank"
               className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
             >
               <FaFacebookF className="" />
             </Link>
             <Link
-              to={"https://www.linkedin.com/in/ashfakmahmuddev"} target="_blank"
+              to={"https://www.linkedin.com/in/ashfakmahmuddev"}
+              target="_blank"
               className="h-10 w-10 bg-[#ffffff2d] rounded-full flex items-center justify-center hover:text-[#06b6d4] hover:bg-[#06b5d41f] transition-all duration-500"
             >
               <FaLinkedinIn className="" />
@@ -65,10 +92,17 @@ const Header = () => {
             >
               <GrInstagram className="" />
             </Link>
+            <button
+              className="md:hidden text-3xl focus:outline-none"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <FiX /> : <FiMenu />}
+            </button>
           </div>
         </div>
       </Container>
-    </div>
+    </header>
   );
 };
 
