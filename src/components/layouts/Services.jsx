@@ -147,7 +147,7 @@ const Services = () => {
           </p>
           <Link
             to={"https://mail.google.com/mail/?view=cm&to=ashfakmahmud.dev@gmail.com"}
-            target="_blank" rel="noreferrer"
+            target="_blank"
             className="text-white text-[15px] font-medium bg-primary inline-block py-3 px-6 rounded-md hover:bg-[#ee5f38ce] transition-all duration-400"
           >
             Hire Me

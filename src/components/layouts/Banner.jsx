@@ -21,15 +21,15 @@ const Banner = () => {
             </p>
             <div className="flex items-center gap-x-3 pt-6">
               <Link
-                to={""}
+                to={
+                  "https://mail.google.com/mail/?view=cm&to=ashfakmahmud.dev@gmail.com"
+                }
+                target="_blank"
                 className="text-white text-[15px] font-medium bg-primary inline-block py-3 px-6 rounded-md hover:bg-[#ee5f38ce] transition-all duration-400"
               >
                 Hire Me
               </Link>
-              <a
-                href="/public/AshfakResume.pdf"
-                download="Ashfak_Resume.pdf"
-              >
+              <a href="/public/AshfakResume.pdf" download="Ashfak_Resume.pdf">
                 <Button btnText={"Download CV"} />
               </a>
             </div>
