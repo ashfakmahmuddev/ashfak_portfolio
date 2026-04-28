@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <div className="bg-[url('/src/assets/banner2.png')] bg-no-repeat bg-cover bg-center font-DMSans">
       <Container>
-        <div className="grid grid-cols-2 gap-x-8 justify-between">
+        <div className="flex justify-between">
           <div className="pt-50">
             <div className="text-[40px] font-bold">
               <h4 className="text-white">Hay..! I'm</h4>
@@ -36,8 +36,8 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div className="relative">
-            <Image imgSrc={bannerImg} className={"w-[80%]"} />
+          <div className="relative flex justify-center">
+            <Image imgSrc={bannerImg} className={"w-[60%]"} />
             <div className="absolute right-35 bottom-70 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
               <h4 className="text-white text-base font-semibold">
                 Web Developer
