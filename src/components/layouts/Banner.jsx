@@ -38,15 +38,15 @@ const Banner = () => {
           </div>
           <div className="relative flex justify-center">
             <Image imgSrc={bannerImg} className={"w-[60%]"} />
-            <div className="absolute right-35 bottom-70 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
+            <div className="absolute right-20 bottom-90 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
               <h4 className="text-white text-base font-semibold">
                 Web Developer
               </h4>
               <span className="text-[#90A1B9] text-sm">
-                2+ Years Experience
+                1+ Years Experience
               </span>
             </div>
-            <div className="absolute left-2 bottom-32 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
+            <div className="absolute left-20 bottom-32 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
               <h4 className="text-white text-[36px] font-bold leading-none">
                 50+
               </h4>
