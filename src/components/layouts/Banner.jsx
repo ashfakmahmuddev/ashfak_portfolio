@@ -15,11 +15,11 @@ const Banner = () => {
               <h4 className="text-white">Hay..! I'm</h4>
               <h1 className="text-primary">Ashfak Mahmud</h1>
             </div>
-            <p className="w-136 text-[#90A1B9] text-base font-openSans pt-4">
-              Frontend Developer with 1+ year of experience focused on building
-              scalable web applications using React and Next.js. Proven track
-              record of optimizing UI components and improving application
-              efficiency by 30%.
+            <p className="text-xl text-[#90A1B9] max-w-2xl">
+              Passionate Frontend Developer from Dhaka, Bangladesh, crafting
+              pixel-perfect, responsive web experiences with React and Tailwind
+              CSS. Turning ideas into intuitive digital products that users
+              love.
             </p>
             <div className="flex items-center gap-x-3 pt-6">
               <Link
