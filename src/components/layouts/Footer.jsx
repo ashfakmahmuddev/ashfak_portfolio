@@ -35,9 +35,9 @@ const Footer = () => {
           <h3 className="text-white text-2xl font-semibold">Get In Touch !</h3>
           <p className="w-134 mx-auto text-[#90A1B9] text-[15px] font-openSans leading-6 pt-6">
             Frontend Developer with 1+ year of experience focused on building
-              scalable web applications using React and Next.js. Proven track
-              record of optimizing UI components and improving application
-              efficiency by 30%.
+            scalable web applications using React and Next.js. Proven track
+            record of optimizing UI components and improving application
+            efficiency by 30%.
           </p>
         </div>
         <div className="flex gap-x-15 items-center">
@@ -46,6 +46,7 @@ const Footer = () => {
               <div className="grid grid-cols-1 gap-5">
                 <div className="grid grid-cols-2 gap-5">
                   <input
+                    required
                     type="text"
                     name="user_name"
                     className="text-[#90A1B9] focus:outline-none placeholder:text-[#90A1B9] placeholder:text-[15px] placeholder:font-openSans border-2 border-[#1E2939] rounded-sm p-2"
@@ -58,12 +59,14 @@ const Footer = () => {
                   />
                 </div>
                 <input
+                  required
                   type="email"
                   name="user_email"
                   className="text-[#90A1B9] focus:outline-none placeholder:text-[#90A1B9] placeholder:text-[15px] placeholder:font-openSans border-2 border-[#1E2939] rounded-sm p-2"
                   placeholder="Your E-mail"
                 />
                 <textarea
+                  required
                   type="text"
                   name="message"
                   className="text-[#90A1B9] focus:outline-none placeholder:text-[#90A1B9] placeholder:text-[15px] placeholder:font-openSans border-2 border-[#1E2939] rounded-sm h-28 p-2 resize-none"
