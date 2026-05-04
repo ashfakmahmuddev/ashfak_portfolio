@@ -42,9 +42,10 @@ const Banner = () => {
               <h4 className="text-white text-base font-semibold">
                 Web Developer
               </h4>
-              <span className="text-[#90A1B9] text-sm">
-                1+ Years Experience
-              </span>
+              <p className="text-[#90A1B9] text-sm flex items-center">
+                <span className="text-primary text-2xl font-bold">1+</span>&nbsp;
+                Years Experience
+              </p>
             </div>
             <div className="absolute left-20 bottom-32 bg-[#0F172B] p-5 text-center rounded-lg shadow-lg shadow-[#000000]">
               <h4 className="text-white text-[36px] font-bold leading-none">

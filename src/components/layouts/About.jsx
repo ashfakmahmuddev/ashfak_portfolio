@@ -17,9 +17,9 @@ const About = () => {
               <h4 className="text-white text-base font-semibold">
                 Web Developer
               </h4>
-              <p className="text-[#90A1B9] text-sm">
-                <span className="text-primary text-2xl font-bold">2+</span>{" "}
-                Years <br />
+              <p className="text-[#90A1B9] text-sm flex items-center">
+                <span className="text-primary text-2xl font-bold">1+</span>&nbsp;
+                Years
                 Experience
               </p>
             </div>
@@ -28,19 +28,30 @@ const About = () => {
             <h3 className="text-white text-2xl font-semibold">
               I'm a Passionate Web Developer
             </h3>
-            <div className="text-[#90A1B9] text-[15px] leading-6 font-openSans w-142.5 text-justify pb-8">
-              <p className="py-6">
-                Obviously I'm a Web Developer. Web Developer with over 2 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using 'Content
-                here, content here', making it look like readable English.
+            <div className="space-y-6 text-[#90A1B9] py-5">
+              <p>
+                Hi, I'm Ashfak Mahmud — a self-driven Frontend Developer based
+                in Dhaka, Bangladesh. With over 2 years of hands-on experience,
+                I specialize in building modern, high-performance web
+                applications using React, Next.js, and Tailwind CSS.
               </p>
               <p>
-                I'm a professional Web Developer. My motive is to build a best
-                web design with my all years of experience.
+                I’m obsessed with clean, accessible UI/UX and love transforming
+                Figma/PSD designs into pixel-perfect, responsive code. Whether
+                it's a sleek SaaS dashboard or a fast e-commerce storefront, I
+                focus on performance, usability, and delightful interactions.
+              </p>
+              <p>
+                When I'm not coding, you'll find me exploring new design trends,
+                contributing to open source, or sipping cha while planning my
+                next travel adventure. Currently seeking exciting opportunities
+                to create impactful digital experiences.
               </p>
             </div>
-            <Link to={"https://github.com/ashfakmahmuddev?tab=repositories"} target="_blank">
+            <Link
+              to={"https://github.com/ashfakmahmuddev?tab=repositories"}
+              target="_blank"
+            >
               <Button btnText={"See Work"} />
             </Link>
           </div>
